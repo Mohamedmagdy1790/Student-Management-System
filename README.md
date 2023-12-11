@@ -11,7 +11,7 @@
 ## Technologies 
 1-java programming language
 
-2-springboot framework
+2-spring boot framework
 
 3- mysql for database
 
