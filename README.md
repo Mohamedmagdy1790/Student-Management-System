@@ -28,28 +28,30 @@ Optional Swagger Integration: Enhance developer experience with interactive API 
 
 
 
- ### database design 
+ ## database design 
  we have four tables 
  student ,teacher , course, quiz
 
  #### relationships between the tables:
 
-Teacher and Course: One-to-Many (1:N) relationship
+-Teacher and Course: One-to-Many (1:N) relationship
 
-One teacher can teach multiple courses.
+-One teacher can teach multiple courses.
 Each course is taught by only one teacher.
 Student and Course: Many-to-Many (M:N) relationship
 
-A student can enroll in multiple courses.
+-A student can enroll in multiple courses.
 Each course can have multiple students.
 Course and Quiz: One-to-Many (1:N) relationship
 
-One course can have multiple quizzes.
+-One course can have multiple quizzes.
 Each quiz belongs to only one course.
 
-database diagram:
+## database diagram:
+
 <img src="https://github.com/Mohamedmagdy1790/Student-Management-System/blob/main/dbdiagram.png">
 
+## Database script
 ``` mysql script
 create table student(
     student_id int primary key auto_increment,
@@ -103,11 +105,11 @@ create table quiz(
 
 ## setup
  
-Clone the project
+1-Clone the project
 
-Run mysql db script
+2-Run mysql db script
 
-Run app with you favoraite IDE 
+3-Run app with you favoraite IDE 
 
 ## API ENDPOINTS: 
  swagger: 
