@@ -107,7 +107,7 @@ create table quiz(
  
 1-Clone the project
 
-2-Run mysql db scripts (schema and data scripts)
+2-Run mysql db scripts you will find them in src\main\resources (schema and data scripts)
 
 3-Run app with you favoraite IDE 
 
